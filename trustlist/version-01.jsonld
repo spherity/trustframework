@@ -1,59 +1,60 @@
-"@context": [
-            "https://www.w3.org/2018/credentials/v1",
-            "https://spherity.github.io/schemas/testing/trust-list-credential-v1.jsonld"
-        ],
-        "type": [
-            "VerifiableCredential",
-            "TrustList"
-        ],
-        "issuer": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
-        "issuanceDate": "2022-12-28T12:00:00Z",
-        "credentialSubject": {
-            "metadata": {
-                "operator": {
-                    "did": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
-                    "name": "Organisationsentwicklung",
-                    "email": "organisationsentwicklung@bamf.de",
-                    "address": "Musterstraße 12 34567 Nürenberg"
-                },
-                "name": "BAMF-SSI-Vertrauensliste",
-                "versionIdentifier": "4.0",
-                "versionUrl": "https://github.com/spherity/trustframework/version-01.jsonld",
-                "validFrom": "2023-12-12T22:10:39Z",
-                "validUntil": "2023-12-12T22:10:39Z",
-                "activeUrl": "https://github.com/spherity/trustframework/active-version.jsonld",
-                "getStatusEndpoint": "www.bamf.de/trust_list/getCurrentVersion/3",
-                "previousVersions": [],
-                "legalNotice": "www.bamf.de/legal",
-                "schemeTerritory": "DE",
-                "issueDateTime": "2023-12-12T22:10:39Z"
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://spherity.github.io/schemas/testing/trust-list-credential-v1.jsonld"
+    ],
+    "type": [
+        "VerifiableCredential",
+        "TrustList"
+    ],
+    "issuer": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
+    "issuanceDate": "2022-12-28T12:00:00Z",
+    "credentialSubject": {
+        "metadata": {
+            "operator": {
+                "did": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
+                "name": "Organisationsentwicklung",
+                "email": "organisationsentwicklung@bamf.de",
+                "address": "Musterstraße 12 34567 Nürenberg"
             },
-            "trustedIssuers": [
-                {
-                    "did": "did:key:z6MkgmMLjXVFGZFANF6KAjxUm2yTgr2AvdissTG9bDYUVBpo",
-                    "name": "BAMF Personal Abteilung",
-                    "email": "personalabteilung@bamf.de",
-                    "address": "Musterstraße 12 34567 Nürenberg",
-                    "validFrom": "2023-12-12T22:10:39Z",
-                    "credentials": [
-                        {
-                            "credentialType": "employee",
-                            "description": "Mitarbeiter Verifiable Credential",
-                            "levelOfAssurance": "substantial",
-                            "schemaURI": "https://spherity.github.io/schemas/testing/employee-credential-v1.jsonld",
-                            "schemaVersion": "1.0",
-                            "validFrom": "2023-12-12T22:10:39Z"
-                        }
-                    ]
-                }
-            ]
+            "name": "BAMF-SSI-Vertrauensliste",
+            "versionIdentifier": "4.0",
+            "versionUrl": "https://github.com/spherity/trustframework/version-01.jsonld",
+            "validFrom": "2023-12-12T22:10:39Z",
+            "validUntil": "2023-12-12T22:10:39Z",
+            "activeUrl": "https://github.com/spherity/trustframework/active-version.jsonld",
+            "getStatusEndpoint": "www.bamf.de/trust_list/getCurrentVersion/3",
+            "previousVersions": [],
+            "legalNotice": "www.bamf.de/legal",
+            "schemeTerritory": "DE",
+            "issueDateTime": "2023-12-12T22:10:39Z"
         },
-        "proof": {
-            "domain": "bamf.de",
-            "proofPurpose": "assertionMethod",
-            "verificationMethod": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk#z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
-            "type": "Ed25519Signature2018",
-            "created": "2023-01-16T16:00:35Z",
-            "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..Dy_hcfVs7fEulL0KvnX2LL-ooHzEnOGQuJsY_r2KGAHJ6uI9IkBCnEpEEETl0rhZ2e0h5ws6lbCo3WYWU_9_Cg"
-        }
+        "trustedIssuers": [
+            {
+                "did": "did:key:z6MkgmMLjXVFGZFANF6KAjxUm2yTgr2AvdissTG9bDYUVBpo",
+                "name": "BAMF Personal Abteilung",
+                "email": "personalabteilung@bamf.de",
+                "address": "Musterstraße 12 34567 Nürenberg",
+                "validFrom": "2023-12-12T22:10:39Z",
+                "credentials": [
+                    {
+                        "credentialType": "employee",
+                        "description": "Mitarbeiter Verifiable Credential",
+                        "levelOfAssurance": "substantial",
+                        "schemaURI": "https://spherity.github.io/schemas/testing/employee-credential-v1.jsonld",
+                        "schemaVersion": "1.0",
+                        "validFrom": "2023-12-12T22:10:39Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "proof": {
+        "domain": "bamf.de",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk#z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
+        "type": "Ed25519Signature2018",
+        "created": "2023-01-19T14:29:44Z",
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..NyBB6kPsOxLZSzfChF7HGyQ6KL9quzRRkTFTxMIFhvrJlEulYvkuFKbjABWWAtwqmGT8hBqZ55m22grc0JE6Bw"
     }
+}
