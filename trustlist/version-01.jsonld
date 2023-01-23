@@ -13,28 +13,28 @@
         "metadata": {
             "operator": {
                 "did": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
-                "name": "Organisationsentwicklung",
-                "email": "organisationsentwicklung@bamf.de",
-                "address": "Musterstraße 12 34567 Nürenberg"
+                "name": "Organization Operator",
+                "email": "operator@spherity.de",
+                "address": "Spherity GmbH | Emil-Figge-Str. 80 | 44227 Dortmund"
             },
-            "name": "BAMF-SSI-Vertrauensliste",
-            "versionIdentifier": "4.0",
+            "name": "SSI-Trust-List",
+            "versionIdentifier": "1.0",
             "versionUrl": "https://spherity.github.io/trustframework/trustlist/version-01.jsonld",
             "validFrom": "2023-12-12T22:10:39Z",
             "validUntil": "2023-12-12T22:10:39Z",
             "activeUrl": "https://spherity.github.io/trustframework/trustlist/active-version.jsonld",
-            "getStatusEndpoint": "www.bamf.de/trust_list/getCurrentVersion/3",
+            "getStatusEndpoint": "www.trustframework.spherity.de//trust-verification/getStatus?version=1.0",
             "previousVersions": [],
-            "legalNotice": "www.bamf.de/legal",
+            "legalNotice": "www.trustframework.spherity.de/legal",
             "schemeTerritory": "DE",
             "issueDateTime": "2023-12-12T22:10:39Z"
         },
         "trustedIssuers": [
             {
                 "did": "did:key:z6MkgmMLjXVFGZFANF6KAjxUm2yTgr2AvdissTG9bDYUVBpo",
-                "name": "BAMF Personal Abteilung",
-                "email": "personalabteilung@bamf.de",
-                "address": "Musterstraße 12 34567 Nürenberg",
+                "name": "Human Resoures",
+                "email": "hr@spherity.de",
+                "address": "Spherity GmbH | Emil-Figge-Str. 80 | 44227 Dortmund",
                 "validFrom": "2023-12-12T22:10:39Z",
                 "credentials": [
                     {
@@ -50,11 +50,11 @@
         ]
     },
     "proof": {
-        "domain": "bamf.de",
+        "domain": "spherity.de",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk#z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
         "type": "Ed25519Signature2018",
-        "created": "2023-01-19T17:11:10Z",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..t23jkmqBPWeyHJMah4r22JMraeZNij2YbGaVzs-7fa-MEAakk03bnVpu0Mk5kSd1umK109QKA9bB5XvwjhG5BQ"
+        "created": "2023-01-23T10:50:01Z",
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..2VwEwHG_M7n_xuRfSwPZa_zoIOV13Sqz2Zjjii1qLHC0JSXmImQbTOLFchEhnLBqlCZSmiwbpvLRut64uFGLCQ"
     }
 }
