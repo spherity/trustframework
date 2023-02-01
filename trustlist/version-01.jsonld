@@ -36,6 +36,7 @@
                 "email": "hr@spherity.de",
                 "address": "Spherity GmbH | Emil-Figge-Str. 80 | 44227 Dortmund",
                 "validFrom": "2023-12-12T22:10:39Z",
+                "validUntil": "",
                 "credentials": [
                     {
                         "credentialType": "employee",
@@ -43,7 +44,8 @@
                         "levelOfAssurance": "substantial",
                         "schemaURI": "https://spherity.github.io/schemas/testing/employee-credential-v1.jsonld",
                         "schemaVersion": "1.0",
-                        "validFrom": "2023-12-12T22:10:39Z"
+                        "validFrom": "2023-12-12T22:10:39Z",
+                        "validUntil": ""
                     }
                 ]
             }
@@ -54,7 +56,7 @@
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk#z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
         "type": "Ed25519Signature2018",
-        "created": "2023-01-23T10:50:01Z",
-        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..2VwEwHG_M7n_xuRfSwPZa_zoIOV13Sqz2Zjjii1qLHC0JSXmImQbTOLFchEhnLBqlCZSmiwbpvLRut64uFGLCQ"
+        "created": "2023-02-01T18:55:50Z",
+        "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..Jgs2uhse7kmkNV6QNPnvLi-kVbZLbDI6uNOKD9A5VibuDP6ex3QUTwXxURKHu-oTZkx5Gn2Y8hhKXlxgYF_GBA"
     }
 }
