@@ -41,7 +41,7 @@
                     {
                         "credentialType": "employee",
                         "description": "Mitarbeiter Verifiable Credential",
-                        "levelOfAssurance": "substantial",
+                        "levelOfAssurance": ["substantial", "low"],
                         "schemaURI": "https://spherity.github.io/schemas/testing/employee-credential-v1.jsonld",
                         "schemaVersion": "1.0",
                         "validFrom": "2023-12-12T22:10:39Z",
