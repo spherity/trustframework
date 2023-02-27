@@ -1,0 +1,65 @@
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://spherity.github.io/schemas/testing/trust-list-credential-v1.jsonld"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "TrustList"
+    ],
+    "issuer": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
+    "issuanceDate": "2022-12-28T12:00:00Z",
+    "credentialSubject": {
+      "metadata": {
+        "operator": {
+          "did": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
+          "name": "Organization Operator",
+          "email": "operator@spherity.de",
+          "address": "Spherity GmbH | Emil-Figge-Str. 80 | 44227 Dortmund"
+        },
+        "name": "SSI-Trust-List",
+        "versionIdentifier": "1.0",
+        "versionUrl": "https://spherity.github.io/trustframework/trustlist/version-01.jsonld",
+        "validFrom": "2023-12-12T22:10:39Z",
+        "validUntil": "2023-12-12T22:10:39Z",
+        "activeUrl": "https://spherity.github.io/trustframework/trustlist/active-version.jsonld",
+        "getStatusEndpoint": "www.trustframework.spherity.de//trust-verification/getStatus?version=1.0",
+        "previousVersions": [],
+        "legalNotice": "www.trustframework.spherity.de/legal",
+        "schemeTerritory": "DE",
+        "issueDateTime": "2023-12-12T22:10:39Z"
+      },
+      "trustedIssuers": [
+        {
+          "did": "did:key:z6MkgmMLjXVFGZFANF6KAjxUm2yTgr2AvdissTG9bDYUVBpo",
+          "name": "Human Resoures",
+          "email": "hr@spherity.de",
+          "address": "Spherity GmbH | Emil-Figge-Str. 80 | 44227 Dortmund",
+          "validFrom": "2023-12-12T22:10:39Z",
+          "validUntil": "",
+          "credentials": [
+            {
+              "credentialType": "employee",
+              "description": "Mitarbeiter Verifiable Credential",
+              "levelOfAssurance": [
+                "substantial",
+                "low"
+              ],
+              "schemaURI": "https://spherity.github.io/schemas/testing/employee-credential-v1.jsonld",
+              "schemaVersion": "1.0",
+              "validFrom": "2023-12-12T22:10:39Z",
+              "validUntil": ""
+            }
+          ]
+        }
+      ]
+    },
+    "proof": {
+      "domain": "spherity.de",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:key:z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk#z6MkqnzCKFwvEUvt5VXvWMd5hpg3RoPyrzPnsFjHsGLSEAdk",
+      "type": "Ed25519Signature2018",
+      "created": "2023-02-08T17:55:53Z",
+      "jws": "eyJhbGciOiAiRWREU0EiLCAiYjY0IjogZmFsc2UsICJjcml0IjogWyJiNjQiXX0..xbdwZAwYlwAsiFU17elhR013NEzEfhmAfFePGKcxGdJfW0DG4vpJRdXvqfw5LoTEM9fBMZPoqHquVLo1F29mCA"
+    }
+  }
